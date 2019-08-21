@@ -5,7 +5,9 @@
 *Very* experimental and *very* incomplete.
 
 ## Installation
-`pip install -r requirements.txt` (it's just [termpixels][termpixels])
+`pip install -e .` in root directory
+
+Depdends on [termpixels][termpixels]
 
 ## Usage
 Check out `demo.py`

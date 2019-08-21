@@ -1,5 +1,9 @@
 import setuptools
 
+requirements = []
+with open("requirements.txt", "r") as f:
+    requirements += f.readlines()
+
 setuptools.setup(
     name="termiformer",
     version="0.0.1",
@@ -8,6 +12,7 @@ setuptools.setup(
     description="Create interactive input forms in the terminal",
     url="https://github.com/loganzartman/termiformer",
     packages=setuptools.find_packages(),
+    install_requires=requirements,
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
