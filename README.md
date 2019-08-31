@@ -7,7 +7,7 @@
 ## Installation
 `pip install -e .` in root directory
 
-Depdends on [termpixels][termpixels]
+Depends on [termpixels][termpixels]
 
 ## Usage
 Check out `demo.py`
